@@ -1,0 +1,25 @@
+{
+  "name": "adventofcode2021",
+  "version": "1.0.0",
+  "description": "parent package of AdventOfCode2021",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayhuba/AdventOfCode2021.git"
+  },
+  "keywords": [
+    "adventofcode2021",
+    "aoc2021",
+    "2021"
+  ],
+  "author": "Kay Huber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayhuba/AdventOfCode2021/issues"
+  },
+  "homepage": "https://github.com/kayhuba/AdventOfCode2021#readme",
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "mocha": "^9.1.3",
+    "typescript": "^4.5.2"
+  }
+}
