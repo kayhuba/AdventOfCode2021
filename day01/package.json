@@ -18,9 +18,9 @@
   "author": "Kay Huber",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kayhuba/AdventOfCode2020/issues"
+    "url": "https://github.com/kayhuba/AdventOfCode2021/issues"
   },
-  "homepage": "https://github.com/kayhuba/AdventOfCode2020#readme",
+  "homepage": "https://github.com/kayhuba/AdventOfCode2021#readme",
   "devDependencies": {
     "@types/line-reader": "^0.0.34",
     "@types/node": "^16.11.11",
