@@ -25,7 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fc0e71b-8a99-4c81-be67-8f25dac22dac" name="Default Changelist" comment="" />
+    <list default="true" id="9fc0e71b-8a99-4c81-be67-8f25dac22dac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <list id="3af4cb2d-8ca2-422a-a53f-37293817d4b8" name="Revert &quot;Implement puzzles for day02 - add built files&quot;" comment="Revert &quot;Implement puzzles for day02 - add built files&quot;&#10;&#10;This reverts commit 6620c559" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +42,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -60,9 +65,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.18.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.17.34" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.18.2" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.18.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day07" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
@@ -74,11 +79,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day07" />
+      <recent name="$PROJECT_DIR$/day06" />
+      <recent name="$PROJECT_DIR$/day05" />
+      <recent name="$PROJECT_DIR$/day04" />
       <recent name="$PROJECT_DIR$/day25" />
-      <recent name="$PROJECT_DIR$/day24" />
-      <recent name="$PROJECT_DIR$/day23" />
-      <recent name="$PROJECT_DIR$/day22" />
-      <recent name="$PROJECT_DIR$/day21" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day02/src/main" />
@@ -86,11 +91,32 @@
       <recent name="$PROJECT_DIR$/day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.day01_puzzle02.js">
+  <component name="RunManager" selected="Node.js.day07_puzzle02.js">
     <configuration name="day01_puzzle01.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="build/puzzle01.js" working-dir="$PROJECT_DIR$/day01">
       <method v="2" />
     </configuration>
     <configuration name="day01_puzzle02.js" type="NodeJSConfigurationType" path-to-js-file="build/puzzle02.js" working-dir="$PROJECT_DIR$/day01">
+      <method v="2" />
+    </configuration>
+    <configuration name="day04_puzzle01.js" type="NodeJSConfigurationType" path-to-js-file="build/puzzle01.js" working-dir="$PROJECT_DIR$/day04">
+      <method v="2" />
+    </configuration>
+    <configuration name="day04_puzzle02.js" type="NodeJSConfigurationType" path-to-js-file="build/puzzle02.js" working-dir="$PROJECT_DIR$/day04">
+      <method v="2" />
+    </configuration>
+    <configuration name="day05_puzzle01.js" type="NodeJSConfigurationType" path-to-js-file="build/puzzle01.js" working-dir="$PROJECT_DIR$/day05">
+      <method v="2" />
+    </configuration>
+    <configuration name="day05_puzzle02.js" type="NodeJSConfigurationType" path-to-js-file="build/puzzle02.js" working-dir="$PROJECT_DIR$/day05">
+      <method v="2" />
+    </configuration>
+    <configuration name="day06_puzzle01.js" type="NodeJSConfigurationType" path-to-js-file="build/puzzle01.js" working-dir="$PROJECT_DIR$/day06">
+      <method v="2" />
+    </configuration>
+    <configuration name="day07_puzzle01.js" type="NodeJSConfigurationType" path-to-js-file="build/puzzle01.js" working-dir="$PROJECT_DIR$/day07">
+      <method v="2" />
+    </configuration>
+    <configuration name="day07_puzzle02.js" type="NodeJSConfigurationType" path-to-js-file="build/puzzle02.js" working-dir="$PROJECT_DIR$/day07">
       <method v="2" />
     </configuration>
     <configuration name="day02/build/test/test-puzzle01.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -121,6 +147,13 @@
       <item itemvalue="Mocha.day02/build/test/test-puzzle02.js" />
       <item itemvalue="Mocha.day02/build/test/test-puzzle01.js" />
       <item itemvalue="Node.js.day01_puzzle02.js" />
+      <item itemvalue="Node.js.day04_puzzle01.js" />
+      <item itemvalue="Node.js.day05_puzzle01.js" />
+      <item itemvalue="Node.js.day06_puzzle01.js" />
+      <item itemvalue="Node.js.day07_puzzle01.js" />
+      <item itemvalue="Node.js.day07_puzzle02.js" />
+      <item itemvalue="Node.js.day05_puzzle02.js" />
+      <item itemvalue="Node.js.day04_puzzle02.js" />
       <item itemvalue="Node.js.day01_puzzle01.js" />
     </list>
     <recent_temporary>
@@ -177,41 +210,7 @@
       <workItem from="1608891941519" duration="2717000" />
       <workItem from="1608936534338" duration="4700000" />
       <workItem from="1638340685067" duration="1811000" />
-    </task>
-    <task id="LOCAL-00004" summary="Slightly corrected puzzle02 of day01">
-      <created>1606894001657</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1606894001657</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Moved .idea folder to main project folder">
-      <created>1606894089267</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1606894089267</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Adding .gitignore in main project dir">
-      <created>1606894195940</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1606894195940</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Setting up project dir properly">
-      <created>1606894357494</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1606894357495</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Adding day02">
-      <created>1606894748798</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1606894748798</updated>
+      <workItem from="1638911136966" duration="2483000" />
     </task>
     <task id="LOCAL-00009" summary="Adapted initial logging slightly">
       <created>1606907686766</created>
@@ -521,7 +520,42 @@
       <option name="project" value="LOCAL" />
       <updated>1608893366739</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Fix AoC2020 references">
+      <created>1638639362050</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1638639362051</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Implement day04 puzzles">
+      <created>1638649046033</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1638649046033</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Implement day05 puzzles">
+      <created>1638693828241</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1638693828241</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Implement day06 puzzles">
+      <created>1638805274192</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1638805274192</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Implement day07 puzzles">
+      <created>1638913395100</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1638913395101</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +572,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -552,12 +586,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement day12 puzzles" />
-    <MESSAGE value="Implement day13 puzzles - not finished yet" />
-    <MESSAGE value="Implement day13 puzzles - final puzzle02 solution" />
-    <MESSAGE value="Remove some diagnostic leftovers" />
-    <MESSAGE value="Implement day14 puzzles" />
-    <MESSAGE value="Implement day15 puzzles" />
     <MESSAGE value="Implement day16 puzzles" />
     <MESSAGE value="Fixed initial log for day 16 puzzles" />
     <MESSAGE value="Implement day17 puzzles" />
@@ -577,7 +605,13 @@
     <MESSAGE value="Wrong impl of day24 puzzle01" />
     <MESSAGE value="Implement puzzles for day24" />
     <MESSAGE value="Implement puzzle01 for day25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement puzzle01 for day25" />
+    <MESSAGE value="Implement puzzles for day03" />
+    <MESSAGE value="Fix AoC2020 references" />
+    <MESSAGE value="Implement day04 puzzles" />
+    <MESSAGE value="Implement day05 puzzles" />
+    <MESSAGE value="Implement day06 puzzles" />
+    <MESSAGE value="Implement day07 puzzles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement day07 puzzles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,7 +629,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/day01/src/puzzle02.ts</url>
           <line>14</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
